@@ -113,28 +113,22 @@ div.socials > a > i.fa.fa-twitter{
     }
 }
 /* Small Mobile Screen Size */
-@media only screen and (min-width:320px){
+@media only screen and (min-width:250px){
     div.quote-container{
-        width: 60rem;
-        height: 300px;
+        width: 22rem;
         background-color: red;
-    }
-    div.quote-container > h1{
-        font-size: 2.5rem;
     }
     div.quote-container > i.fa.fa-quote-left {
         position: relative;
-        right: 68rem;
-        bottom: 35rem;
+        right: 330px;
+        bottom: 450px;
         position: fixed;
-        font-size: 2rem;
     }
     div.quote-container > i.fa.fa-quote-right {
         position: relative;
-        left: 68rem;
-        bottom: 20rem;
+        left: 330px;
+        bottom: 330px;
         position: fixed;
-        font-size: 2rem;
     }
 }
 /* Medium Mobile Screen Size */
