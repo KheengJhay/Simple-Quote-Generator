@@ -112,6 +112,31 @@ div.socials > a > i.fa.fa-twitter{
     opacity: 1;
     }
 }
+/* Small Mobile Screen Size */
+@media only screen and (max-width:250px){
+    div.quote-container{
+        width: 60rem;
+        height: 300px;
+        background-color: red;
+    }
+    div.quote-container > h1{
+        font-size: 2.5rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 68rem;
+        bottom: 35rem;
+        position: fixed;
+        font-size: 2rem;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 68rem;
+        bottom: 20rem;
+        position: fixed;
+        font-size: 2rem;
+    }
+}
 /* Medium Mobile Screen Size */
 @media only screen and (min-width:375px) {
     div.quote-container{
@@ -211,5 +236,28 @@ div.socials > a > i.fa.fa-twitter{
         width: 400px;
         height: 60px;
         font-size: 23px;
+    }
+}
+@media only screen and (min-width:1350px) {
+    div.quote-container{
+        width: 60rem;
+        height: 300px;
+    }
+    div.quote-container > h1{
+        font-size: 2.5rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 68rem;
+        bottom: 35rem;
+        position: fixed;
+        font-size: 2rem;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 68rem;
+        bottom: 20rem;
+        position: fixed;
+        font-size: 2rem;
     }
 }
