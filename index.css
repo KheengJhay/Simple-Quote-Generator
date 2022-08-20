@@ -113,7 +113,7 @@ div.socials > a > i.fa.fa-twitter{
     }
 }
 /* Small Mobile Screen Size */
-@media only screen and (max-width:250px){
+@media only screen and (min-width:320px){
     div.quote-container{
         width: 60rem;
         height: 300px;
