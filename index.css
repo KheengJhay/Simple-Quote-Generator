@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primaryfont: Arial;
+    --primarycolor: #051367 ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFF6FF;
+}
+div.main-text{
+    display: flex;
+    justify-content: center;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    text-align: center;
+}
+div.main-container{
+    display: flex;
+    justify-content: center;
+}
+div.quote-container{
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    background-color: #9eb7f3;
+    color: var(--primarycolor);
+    padding: 5px;
+}
+div.quote-container > h1{
+    font-size: 1.5rem;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    padding-top: 10px;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+div.quote-container > i.fa.fa-quote-left {
+    position: relative;
+    right: 285px;
+    bottom: 450px;
+    position: fixed;
+}
+div.quote-container > i.fa.fa-quote-right {
+    position: relative;
+    left: 285px;
+    bottom: 330px;
+    position: fixed;
+}
+button.display-btn{
+    width: 200px;
+    border-radius: 40rem;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    height: 40px;
+    background-color: #2D31FA;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0px 10px 0;
+    outline: none;
+}
+button.display-btn:hover{
+    background-color: #2022a5;
+}
+button.refresh-btn{
+    width: 200px;
+    border-radius: 40rem;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    height: 40px;
+    background-color: #051367;
+    color: white;
+    font-size: 16px;
+    margin: 0px 0px 10px 0;
+    outline: none;
+}
+button.reload-btn:hover{
+    background-color: #040e44;
+}
+div.socials {
+    margin-top: 20px;
+}
+div.socials > a > i.fa.fa-globe{
+    color: gray;
+    font-size: 2rem;
+    padding: 10px;
+}
+div.socials > a > i.fa.fa-github{
+    color: black;
+    font-size: 2rem;
+    padding: 10px;
+}
+div.socials > a > i.fa.fa-twitter{
+    color: blue;
+    font-size: 2rem;
+    padding: 10px;
+}
+@keyframes scale-in-center {
+    0% {
+    transform: scale(0);
+    opacity: 1;
+    }
+    100% {
+    transform: scale(1);
+    opacity: 1;
+    }
+}
+/* Medium Mobile Screen Size */
+@media only screen and (min-width:375px) {
+    div.quote-container{
+        width: 22rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 330px;
+        bottom: 450px;
+        position: fixed;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 330px;
+        bottom: 330px;
+        position: fixed;
+    }
+}
+/* Large Mobile Screen Size */
+@media only screen and (min-width:425px) {
+    div.quote-container{
+        width: 25rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 375px;
+        bottom: 485px;
+        position: fixed;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 375px;
+        bottom: 370px;
+        position: fixed;
+    }
+}
+/* Tablet Screen Size */
+@media only screen and (min-width:768px) {
+    div.quote-container{
+        width: 45rem;
+    }
+    div.quote-container > h1{
+        font-size: 2rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 43.75rem;
+        bottom: 42.1875rem;
+        position: fixed;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 43.75rem;
+        bottom: 35.9375rem;
+        position: fixed;
+    }
+    button.display-btn{
+        width: 300px;
+        height: 50px;
+        font-size: 23px;
+    }
+    button.refresh-btn{
+        width: 300px;
+        height: 60px;
+        font-size: 23px;
+    }
+}
+/* Laptop Screen Size */
+@media only screen and (min-width:1024px) {
+    div.quote-container{
+        width: 60rem;
+        height: 300px;
+    }
+    div.quote-container > h1{
+        font-size: 2.5rem;
+    }
+    div.quote-container > i.fa.fa-quote-left {
+        position: relative;
+        right: 58.125rem;
+        bottom: 41.875rem;
+        position: fixed;
+        font-size: 2rem;
+    }
+    div.quote-container > i.fa.fa-quote-right {
+        position: relative;
+        left: 58.125rem;
+        bottom: 27.5rem;
+        position: fixed;
+        font-size: 2rem;
+    }
+    button.display-btn{
+        width: 400px;
+        height: 60px;
+        font-size: 23px;
+    }
+    button.refresh-btn{
+        width: 400px;
+        height: 60px;
+        font-size: 23px;
+    }
+}
