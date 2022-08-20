@@ -120,14 +120,14 @@ div.socials > a > i.fa.fa-twitter{
     }
     div.quote-container > i.fa.fa-quote-left {
         position: relative;
-        right: 280px;
-        bottom: 350px;
+        right: 275px;
+        bottom: 340px;
         position: fixed;
     }
     div.quote-container > i.fa.fa-quote-right {
         position: relative;
         left: 280px;
-        bottom: 230px;
+        bottom: 225px;
         position: fixed;
     }
 }
