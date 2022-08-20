@@ -115,19 +115,19 @@ div.socials > a > i.fa.fa-twitter{
 /* Small Mobile Screen Size */
 @media only screen and (min-width:250px){
     div.quote-container{
-        width: 22rem;
+        width: 20rem;
         background-color: red;
     }
     div.quote-container > i.fa.fa-quote-left {
         position: relative;
-        right: 330px;
-        bottom: 450px;
+        right: 250px;
+        bottom: 200px;
         position: fixed;
     }
     div.quote-container > i.fa.fa-quote-right {
         position: relative;
-        left: 330px;
-        bottom: 330px;
+        left: 250px;
+        bottom: 200px;
         position: fixed;
     }
 }
