@@ -116,7 +116,6 @@ div.socials > a > i.fa.fa-twitter{
 @media only screen and (min-width:250px){
     div.quote-container{
         width: 18rem;
-        background-color: red;
     }
     div.quote-container > i.fa.fa-quote-left {
         position: relative;
